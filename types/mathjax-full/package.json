@@ -1,0 +1,22 @@
+{
+    "private": true,
+    "name": "@types/mathjax-full",
+    "version": "3.2.9999",
+    "projects": [
+        "https://github.com/mathjax/Mathjax-src#readme"
+    ],
+    "dependencies": {
+        "speech-rule-engine": "*",
+        "mj-context-menu": "*"
+    },
+    "devDependencies": {
+        "@types/mathjax-full": "workspace:."
+    },
+    "owners": [
+        {
+            "name": "N. V. Lang",
+            "githubUsername": "nvlang"
+        }
+    ],
+    "type": "module"
+}
