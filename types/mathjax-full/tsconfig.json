@@ -15,9 +15,9 @@
     },
     "files": [
         "index.d.ts",
-        "mathjax-full-tests.ts",
+        "mathjax-full-tests.ts"
     ],
     "include": [
-        "**/*.d.ts",
+        "**/*.d.ts"
     ]
 }
