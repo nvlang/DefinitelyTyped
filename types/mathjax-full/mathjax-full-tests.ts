@@ -5,7 +5,8 @@
 import { mathjax } from 'mathjax-full'
 import { TeX } from 'mathjax-full/input'
 import { SVG } from 'mathjax-full/output'
-import { AllPackages } from 'mathjax-full/input/tex'
+// I'm somewhat mystified by the necessity for the trailing `/` here
+import { AllPackages } from 'mathjax-full/input/tex/'
 import { liteAdaptor } from 'mathjax-full/adaptors'
 import { RegisterHTMLHandler } from 'mathjax-full/handlers'
 
